@@ -1,0 +1,74 @@
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 10px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.social-media a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.social-media a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Estilos de los botones para cada red social */
+.social-media a.facebook {
+  background-color: #3b5998;
+}
+
+.social-media a.facebook {
+  background-color: #3b5998;
+  background-image: url('https://cliply.co/wp-content/uploads/2019/07/371907490_FACEBOOK_ICON_400px.gif');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 5022%;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+
+.social-media a.twitter {
+  background-color: #1da1f2;
+  background-image: url('https://cliply.co/wp-content/uploads/2019/07/371907030_TWITTER_ICON_400px.gif');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+
+.social-media a.instagram {
+  background-color: #e4405f;
+  background-image: url('https://cliply.co/wp-content/uploads/2019/07/371907300_INSTAGRAM_ICON_400px.gif');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+
+
+
