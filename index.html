@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="Diseño.css">
+<html>
+  <head>
+    <title>Mi página web</title>
+    <style>
+      body {
+        background: url('imagen1.jpg') no-repeat center center fixed; /* imagen de fondo inicial */
+        background-size: cover;
+        transition: background 1s ease-in-out; /* transición suave de 1 segundo */
+      }
+    </style>
+    <script>
+      var images = ['http://static.tiempo.com.mx/uploads/imagen/imagen/547090/principal_63a44311041f2.jpg', 'http://spanish.news.cn/20221219/519931f44b554ec8a70ab56dcb11622b/e001662113ff4a31842ed97417aa00da.jpg', 'https://trome.com/resizer/1WDSUTn_oA_ti6fRGH-Mt19H_nM=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/53NRAQROWZC3PBS6NPOJKJXT3M.jpg','https://www.elfinanciero.com.mx/resizer/HlqYNtdrf8b6R2Kd6dJDpsnZ-5o=/1200x630/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/FDCYTXKLNNF4VL36RZZEDPA36M.jpg','https://images2.minutemediacdn.com/image/upload/c_crop,w_5402,h_3038,x_0,y_237/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/12up_es_international_web/01gmk9q9gpx8rph4nv8t.jpg']; /* lista de imágenes */
+      var currentIndex = 0; /* índice de la imagen actual */
+      var interval = 4444; /* tiempo en milisegundos entre cada cambio de imagen */
+
+      function changeBackground() {
+        currentIndex = (currentIndex + 1) % images.length; /* avanzar al siguiente índice */
+        document.body.style.backgroundImage = 'url(' + images[currentIndex] + ')'; /* establecer la nueva imagen de fondo */
+      }
+
+      setInterval(changeBackground, interval); /* cambiar la imagen cada 5 segundos */
+    </script>
+  </head>
+
+  
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: white;
+      font-style: italic;
+    }
+    p {
+      color: white;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contactame</h1>
+  <p>Karen Itzel </p>
+</body>
+
+ 
+  <div class="social-media">
+    <a href="https://www.facebook.com/" target="_blank" class="facebook">
+      <i></i>
+    </a>
+    <a href="indexv2.html" target="_blank" class="twitter">
+      <i></i>
+    </a>
+    <a href="https://www.instagram.com/" target="_blank" class="instagram">
+      <i></i>
+
+    
+  
+  </div>
+  
+
+  
+
+
+
+</html>
